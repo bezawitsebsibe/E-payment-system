@@ -47,7 +47,7 @@
 
 
   .input-field {
-	color:black;
+	color:white;
     width: 100%;
     padding: 10px 0;
     margin: 5px 0;
@@ -61,22 +61,55 @@
 
 
   .form-box {
-    width: 380px;
-    height: 480px;
+    width: 550px;
+    height: 600px;
     position: relative;
     margin:auto;
-     margin-top: 80px;
-    background: rgb(120, 190, 248);
+     margin-top: 60px;
+    background: rgb(1, 12, 20);
     padding: 20px;
     overflow: hidden;
 	 box-shadow: 10px 0px 20px 0px #adaba7;
 }
-.form-box, lable{
- font-size: large;
-}
+
 /*
 .form-box, :placeholder-shown{
   font-size: small;
   color: red;
 }*/
 
+
+
+.form-box label {
+  font-weight: bold;
+  align-content: left;
+  color: white;
+}
+
+
+.form-box span {
+  color: red;
+}
+
+.form-box button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #45a049;
+}
+.msg{
+  color: #13e91d;
+  font-size: large;
+  text-align: center;
+}
