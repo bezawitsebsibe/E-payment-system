@@ -62,7 +62,7 @@
 
   .form-box {
     width: 550px;
-    height: 600px;
+    height: 900px;
     position: relative;
     margin:auto;
      margin-top: 60px;
@@ -70,6 +70,7 @@
     padding: 20px;
     overflow: hidden;
 	 box-shadow: 10px 0px 20px 0px #adaba7;
+   margin-top: 20px;
 }
 
 /*
@@ -89,6 +90,8 @@
 
 .form-box span {
   color: red;
+  font-size: 12px;
+  height: 850;
 }
 
 .form-box button {
@@ -103,6 +106,7 @@
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: none;
 }
 
 .form-box button:hover {
