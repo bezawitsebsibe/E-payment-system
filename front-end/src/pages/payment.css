@@ -1,0 +1,70 @@
+.input-container {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 15px;
+    /* align-items: center; */
+    margin-bottom: 16px;
+    width: 600px;
+  }
+  
+  .input-container input {
+    width: 500px;
+    margin-top: 8px;
+  }
+
+  .payment-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items:inherit; */
+  }
+  
+  .bill-container {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 600px;
+  }
+  
+  .bill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .bill-details {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap:nowrap;
+    margin-bottom: 10px;
+  }
+  
+ .bill-section {
+    /* flex: 0 0 50%; */
+    display:flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bill-section h4 {
+    margin-bottom: 5px;
+  }
+  
+  .pay-btn {
+    margin-top: 10px;
+  }
+
+  .pay {
+    margin-top: 10px;
+  }
+  
+  .shorter-input {
+    width: 800px;
+    margin-bottom: 10px;
+  }

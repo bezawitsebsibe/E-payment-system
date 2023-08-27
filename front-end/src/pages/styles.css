@@ -1,0 +1,49 @@
+.list-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 231, 224);
+}
+.class{
+  padding: 200px,0,0,120px;
+  margin: 500px;
+  margin-top: 0;
+  border-radius: 20px;
+  border-inline-width: 70px;
+  
+}
+.list-header{
+  font-size: 50px;
+  color: #101111;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.class button {
+  background-color: #101111;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 45px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.class button:hover {
+  background-color: #171718;
+}
