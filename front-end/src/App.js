@@ -16,8 +16,8 @@ import AdminRegistrationForm from './Admin/adminRegistration.js';
 import AgentRegistrationForm from './Admin/agentRegistration.js';
 import AgentDetail from './pages/agentDetail.js'; 
 import AboutUsPage from './pages/aboutUs.js';
-import ContactUs from './pages/contactUs.js'
-
+import ContactUs from './pages/contactUs.js';
+import Payment from './pages/payment.js';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -26,7 +26,6 @@ function App() {
   const handleServiceProviderClick = (serviceProvider) => {
     setSelectedServiceProvider(serviceProvider);
   };
-
   return (
     <Router> 
       <Routes>
@@ -37,6 +36,7 @@ function App() {
          <Route path="/login/serviceProviders" element={< ServiceProvidersDetails/>} />
            <Route path="/signup" element={<RegistrationForm />} />
          <Route path="/signup/serviceProviders" element={< ServiceProvidersDetails/>} />
+         <Route path="/payment" element={<  Payment/>} />
          <Route path="/aboutUs" element={< AboutUsPage />} />
          <Route path="/contactUs" element={<  ContactUs />} />
 
@@ -70,9 +70,6 @@ function App() {
           path="/admin/user/registration"
           element={<AdminRegistrationForm />}
         />
-        
-     
-        
           <Route
           path="/agents"
           element={
