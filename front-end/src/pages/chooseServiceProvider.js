@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { message } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import './styles.css';
+import './homePage.css';
 import axios from 'axios';
 
 const ServiceProvidersDetails = () => {
