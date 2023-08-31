@@ -14,10 +14,12 @@ import UsersList from './Admin/userList.js';
 import ServiceProviderRegistrationForm from './Admin/serviceProviderRegistration.js';
 import AdminRegistrationForm from './Admin/adminRegistration.js';
 import AgentRegistrationForm from './Admin/agentRegistration.js';
-import AgentDetail from './pages/agentDetail.js'; 
+import AgentDetail from './Admin/agentDetail.js'; 
 import AboutUsPage from './pages/aboutUs.js';
 import ContactUs from './pages/contactUs.js';
 import Payment from './pages/payment.js';
+import ResetPasswordForm from './pages/resetPassword';
+import ServiceNumber from './pages/serviceNumber.js';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -34,9 +36,10 @@ function App() {
 
           <Route path="/login" element={<UserLogin />} />
          <Route path="/login/serviceProviders" element={< ServiceProvidersDetails/>} />
+         <Route path="/Users/resetpassword" element={< ResetPasswordForm />} />
            <Route path="/signup" element={<RegistrationForm />} />
          <Route path="/signup/serviceProviders" element={< ServiceProvidersDetails/>} />
-         <Route path="/payment" element={<  Payment/>} />
+         <Route path="/serviceNumber" element={<  ServiceNumber/>} />
          <Route path="/aboutUs" element={< AboutUsPage />} />
          <Route path="/contactUs" element={<  ContactUs />} />
 
@@ -73,8 +76,7 @@ function App() {
           <Route
           path="/agents"
           element={
-            <AgentDetail
-            /> 
+            <AgentDetail/>
           }
         />
       </Routes>
