@@ -33,9 +33,7 @@ function AboutUsPage() {
       <p className="about-us-description">
         We prioritize the security of your financial data. Our platform encrypts sensitive information, ensuring that your transactions are protected and giving you peace of mind. Trust and reliability are at the core of our services, and we strive to deliver the highest level of security and convenience to our users.
       </p>
-      <p className="about-us-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt ante et feugiat fringilla. Mauris vel purus in leo rhoncus auctor quis at ligula. Suspendisse potenti. Nulla facilisi.
-      </p>
+    
       <p className="about-us-description">
         We are committed to providing exceptional customer service and constantly improving our platform to meet your evolving needs. Whether you are an individual, a business, or an organization, we have tailored solutions to streamline your payment processes and enhance your financial management.
       </p>
