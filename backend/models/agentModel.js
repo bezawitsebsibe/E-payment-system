@@ -16,13 +16,11 @@ module.exports=(sequelize,DataTypes)=>{
             type: DataTypes.STRING,
             allowNUll:false
         },
-
       
         servicesOffered:{
             type: DataTypes.STRING,
             allowNUll:false
         },
-
 
         phoneNumber:{
             type: DataTypes.STRING,
