@@ -7,6 +7,7 @@ const { Op } = require('sequelize');
 async function adminLogin(req, res) {
   const { UserName, Email, Password } = req.body;
 
+  
   try {
     // Check if the user exists and has an 'Admin' role
     const user = await User.findOne({
@@ -18,6 +19,7 @@ async function adminLogin(req, res) {
         ]
       }
     });
+    
 
     if (!user) {
       return res.status(401).json({ error: 'Invalid user name' });
