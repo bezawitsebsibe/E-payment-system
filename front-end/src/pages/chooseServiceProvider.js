@@ -3,6 +3,7 @@ import { message } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import './homePage.css';
 import axios from 'axios';
+import companyLogo from '../image/logoimage.jpg';
 
 const ServiceProvidersDetails = () => {
   const navigate = useNavigate();
@@ -23,17 +24,28 @@ const ServiceProvidersDetails = () => {
 
   const handleServiceProviderClick = (serviceProvider) => {
     console.log('Selected service provider:', serviceProvider);
-    navigate('/payment'); // Navigate to 'payment' page
+    navigate('/serviceNumber'); // Navigate to 'payment' page
   };
 
   return (
-    <div className="list-container">
+    
+   
+      <div className='container'>
+    <div className='header'>
+      <div className='logo'>
+        <img src={companyLogo} alt='company logo' />
+        <div className='company-name'>
+          E-payment-system
+          <div className='slogan'>your trusted online payment system</div>
+        </div>
+      </div>
+</div>
     <div className='class'>
-    <h1 className='list-header'>Choose the Service Providers you want </h1>
+    <h1 className='list-header'>Choose the Service Providers you want to make pay </h1>
       <ul>
         {serviceProviderData.map((serviceProvider) => (
           <li key={serviceProvider.id}>
-            <button type="primary" onClick={() => handleServiceProviderClick(serviceProvider)}>
+            <button type="primary" className='button' onClick={() => handleServiceProviderClick(serviceProvider)}>
               {serviceProvider.serviceProviderName}
             </button>
           </li>
