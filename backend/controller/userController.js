@@ -755,24 +755,5 @@ console.log('', user);
 //       "Bills": [],
 //       "Agents": []
 //   },
-//   {
-//       "id": 2,
-//       "UserID": "ID002",
-//       "FirstName": "Jane",
-//       "LastName": "Smith",
-//       "Gender": "female",
-//       "UserName": "janesmith",
-//       "Password": "$2b$10$fw5wYWg8PxSr6fPlkYEA2.GHc7Kfi.KuX/KcCVhBjC3DMRa10Rjb6",
-//       "Email": "janesmith@gmail.com",
-//       "PhoneNumber": 98765432,
-//       "Address": "456 Elm St",
-//       "Role": "Admin",
-//       "ProfilePicture": "Images\\1692706758547.jpg",
-//       "createdAt": "2023-08-22T12:19:18.000Z",
-//       "updatedAt": "2023-08-22T12:19:18.000Z",
-//       "payments": [],
-//       "Bills": [],
-//       "Agents": []
-//   },
 //  
 // ]
