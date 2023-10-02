@@ -774,23 +774,5 @@ console.log('', user);
 //       "Bills": [],
 //       "Agents": []
 //   },
-//   {
-//       "id": 3,
-//       "UserID": "ID003",
-//       "FirstName": "David",
-//       "LastName": "Johnson",
-//       "Gender": "male",
-//       "UserName": "davidjohnson",
-//       "Password": "$2b$10$f7hV74z5VHqLD6gnlLKFhe8zXdS6mXQMBSYygOmcOazt1lLAFnoUy",
-//       "Email": "davidjohnson@example.com",
-//       "PhoneNumber": 55555555,
-//       "Address": "789 Oak St",
-//       "Role": "User",
-//       "ProfilePicture": null,
-//       "createdAt": "2023-08-22T12:36:26.000Z",
-//       "updatedAt": "2023-08-22T12:36:26.000Z",
-//       "payments": [],
-//       "Bills": [],
-//       "Agents": []
-//   }
+//  
 // ]
