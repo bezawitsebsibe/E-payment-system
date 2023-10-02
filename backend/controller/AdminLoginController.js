@@ -14,7 +14,6 @@ async function adminLogin(req, res) {
     });
     return;
   }
-
   
   try {
     // Find the user by email or username
