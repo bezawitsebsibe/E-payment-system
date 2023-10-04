@@ -89,6 +89,7 @@ const ServiceNumber = () => {
       <div className='circle'>
         <p>P</p>
       </div>
+      
         <div className='bodyy'>
           <div className='form-container'>
             <form onSubmit={handleSubmit}>
@@ -143,6 +144,7 @@ const ServiceNumber = () => {
                   <button type='submit'>NEXT</button>
                 </>
               )}
+
               {errors && <span>{errors}</span>}
             </form>
           </div>
