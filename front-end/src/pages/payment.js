@@ -34,7 +34,6 @@ const Payment = () => {
     account_holder_type: "individual",
   });
 
-
   useEffect(()=>{
       localStorage.setItem("userSelectedMenu", 4);
     },[])
