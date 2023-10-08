@@ -198,7 +198,6 @@ const Payment = () => {
         return;
       }
 
-
       const randomNumber = Math.floor(Math.random() * 1000000000);
       const random = `TXN${randomNumber}`;
       const today = new Date().toISOString().split('T')[0];
