@@ -7,7 +7,6 @@ import "./style.css";
 import { MailOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 
-
 const Payment = () => {
   const [userData, setUserData] = useState(localStorage.getItem('userData'));
   const [serviceNo, setServiceNumber] = useState(localStorage.getItem('serviceNo'));
